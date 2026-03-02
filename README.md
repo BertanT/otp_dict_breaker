@@ -1,4 +1,5 @@
 # OTP Dictionary Breaker
+[![Publish to PyPI](https://github.com/BertanT/otp_dict_breaker/actions/workflows/publish-to-pypi.yml/badge.svg)](https://github.com/BertanT/otp_dict_breaker/actions/workflows/publish-to-pypi.yml)
 
 ![Screenshot of the OTP Dictionary Breaker TUI in use to break 4 OTP ciphertexts sharing the same key.](.github/otp_dict_breaker_screenshot.png)
 
