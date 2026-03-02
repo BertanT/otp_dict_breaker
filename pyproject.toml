@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=82.0.0", "setuptools-scm>9.2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "otp_dict_breaker"
+version = "1.0.0"
+authors = [
+    { name="Mehmet Bertan Tarakcioglu" }
+]
+description = "A CLI/TUI app and Python module for breaking One Time Pad ciphers with re-used keys using dictionary-enhanced, automated crib-dragging."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+]
+license = "AGPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+
+keywords = ["cryptography", "security", "otp", "one-time-pad", "many-time-pad", "crib-dragging"]
+
+dependencies = [
+    "prompt_toolkit>=3.0.52",
+]
+
+[project.urls]
+Homepage = "https://github.com/BertanT/otp_dict_breaker"
+Issues = "https://github.com/BertanT/otp_dict_breaker/issues"
+Changelog = "https://github.com/BertanT/otp_dict_breaker/blob/main/CHANGELOG.md"
+
+[project.scripts]
+otp-dict-breaker = "otp_dict_breaker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+otp_dict_breaker = ["data/*.txt"]
