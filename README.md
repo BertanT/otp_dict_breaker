@@ -1,8 +1,12 @@
 # OTP Dictionary Breaker
+
+![Screenshot of the OTP Dictionary Breaker TUI in use to break 4 OTP ciphertexts sharing the same key.](.github/otp_dict_breaker_screenshot.png)
+
 A CLI/TUI app and Python module that exploits the Many-Time Pad vulnerability where a single One-Time-Pad key is used for encrypting multiple ciphertexts.
 Using a frequency-ordered English word list to enhance automated crib-dragging, it recovers plaintext and key bytes with higher accuracy. 
 The TUI makes it easy to incorporate manual guesses, guiding the dictionary attack further when necessary.
 
+**Note**: My terminal uses the [Catppuccin](https://catppuccin.com) theme. It's really cool! If you have another color profile, it will probably look different on your machine.
 ## Usage
 ### Quick Start
 Install and break ciphertexts in different text files within a directory.
