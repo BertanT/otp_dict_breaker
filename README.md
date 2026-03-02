@@ -1,7 +1,7 @@
 # OTP Dictionary Breaker
 [![Publish to PyPI](https://github.com/BertanT/otp_dict_breaker/actions/workflows/publish-to-pypi.yml/badge.svg)](https://github.com/BertanT/otp_dict_breaker/actions/workflows/publish-to-pypi.yml)
 
-![Screenshot of the OTP Dictionary Breaker TUI in use to break 4 OTP ciphertexts sharing the same key.](.github/otp_dict_breaker_screenshot.png)
+![Screenshot of the OTP Dictionary Breaker TUI in use to break 4 OTP ciphertexts sharing the same key.](https://github.com/BertanT/otp_dict_breaker/blob/main/.github/otp_dict_breaker_screenshot.png)
 
 A CLI/TUI app and Python module that exploits the Many-Time Pad vulnerability where a single One-Time-Pad key is used for encrypting multiple ciphertexts.
 Using a frequency-ordered English word list to enhance automated crib-dragging, it recovers plaintext and key bytes with higher accuracy. 
